@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 1000px;
+    //text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 80px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#orange{
+    background: hsl(31, 77%, 52%);
+    button{
+        color:hsl(31, 77%, 52%);
+    }
+}
+#blue{
+    background: hsl(184, 100%, 22%);
+    button{
+        color:hsl(184, 100%, 22%);
+    }
+}
+#green{
+    background: hsl(179, 100%, 13%);
+    button{
+        color:hsl(179, 100%, 13%)
+    }
+}
+svg{
+    margin: 40px 0 20px 40px;
+}
+h1{
+    //letter-spacing: 5px;
+    font-family: 'Big Shoulders Display', 'cursive';
+    text-indent: 40px;
+}
+p{
+    margin: 20px 30px 30px 40px;
+    font-size: 16px;
+}
+button{
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 450;
+    font-size: 15px;
+    margin-left: 40px;
+}

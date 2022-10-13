@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 800px;
+  width: 800px;
+  margin: auto;
+}
+
+.whole {
+  width: 592px;
+  height: 475px;
+  border: 1px dashed black;
+  margin: 5% auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.red {
+  width: 380px;
+  height: 230px;
+  background: red;
+  margin: 3px;
+}
+
+.orange {
+  width: 200px;
+  height: 230px;
+  background: orange;
+  margin: 3px;
+}
+
+.green {
+  width: 250px;
+  height: 230px;
+  background: green;
+  margin: 3px;
+}
+
+.blue-grp {
+  width: 350px;
+  height: 230px;
+  margin: 3px 3px 3px -125px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.blue {
+  background: blue;
+  width: 325px;
+  height: 110px;
+}/*# sourceMappingURL=grid.css.map */
